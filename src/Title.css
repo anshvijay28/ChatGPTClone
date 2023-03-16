@@ -1,13 +1,16 @@
 .title {
   display: flex; 
   background-color: #0E8388;
-  width: 100vw;
+  width: 90vw;
+  margin-left: 4vw;
   position: fixed;
-  top: 0;
+  top: 2vh;
   justify-content: center;
   align-items: center;
   height: 10vh;
   padding: 1rem;
+  border-radius: 3vh;
+  z-index: 10;
 }
 
 .title-text {
