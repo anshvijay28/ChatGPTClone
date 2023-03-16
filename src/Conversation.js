@@ -23,16 +23,3 @@ export default function Conversation({ prompts }) {
         </div>
     );
 }
-
-
-// for prompt in prompts ==> render a Wrapper item with its child as the prompt 
-
-/*
-    {prompts.map((prompt, index) => (
-        <Wrapper id={index}>{prompt}<Wrapper>
-    ))}
-*/
-
-// {questions.map((question, index) => {
-//     <div>{question}</div>
-// })}
