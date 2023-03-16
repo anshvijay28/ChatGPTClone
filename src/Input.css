@@ -1,0 +1,45 @@
+.input-holder {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 90vh;
+    margin-left: 25vw;
+}
+
+.text-entry {
+    width: 50vw;
+    height: 5vh;
+    border-radius: 0.8rem;
+    border: none;
+    background-color: #0E8388; 
+    color: #CBE4DE;
+    padding-left: 1rem;
+    font-size: 1rem;
+    overflow: scroll;
+}
+
+.enter-button {
+    position: absolute;
+    border: none;
+    aspect-ratio: 1/1;
+    background-color: #2E4F4F;
+    height: 3.5vh;
+    border-radius: 0.5rem;
+    right: 1vh;
+    top: calc((5vh - 3.5vh)/2); 
+}
+
+.enter-button:hover {
+    transform: scale(1.05);
+}
+
+.enter-button:active {
+    transform: scale(1.1);
+}
+
+.arrow {
+    position: absolute;
+    left: calc((3.5vh - 24px)/2);
+    top: calc((3.5vh - 24px)/2);
+    color:#CBE4DE;
+}
