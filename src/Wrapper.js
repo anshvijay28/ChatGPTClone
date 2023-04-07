@@ -1,7 +1,8 @@
-export default function Wrapper({ children }) {
+export default function Wrapper({ children, bgColor, textColor }) {
     return (
         <div style = {{
-            backgroundColor: "#459595",
+            backgroundColor: bgColor,
+            color: textColor,
             borderRadius: "4vh",
             width: "70vw",
             padding: "1rem"
